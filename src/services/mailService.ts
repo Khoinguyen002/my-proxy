@@ -30,7 +30,5 @@ export const sendMail = async ({
     },
   });
 
-  console.log("Success send mail to: " + to);
-
   return res;
 };
